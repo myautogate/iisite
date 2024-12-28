@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" viewBox="0 0 800 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="s-mask">
+      <rect width="800" height="200" fill="white"/>
+      <text x="315" y="80" font-family="Arial" font-weight="bold" font-size="80" fill="black">S</text>
+    </mask>
+  </defs>
+  
+  <!-- INVISIBLE with negative S -->
+  <text x="0" y="80" font-family="Arial" font-weight="bold" font-size="80" fill="black">INVI</text>
+  <text x="315" y="80" font-family="Arial" font-weight="bold" font-size="80" fill="white" mask="url(#s-mask)">S</text>
+  <text x="365" y="80" font-family="Arial" font-weight="bold" font-size="80" fill="black">IBLE</text>
+  
+  <!-- INTERCOM with lighter weight -->
+  <text x="0" y="160" font-family="Arial" font-weight="normal" font-size="80" fill="black" textLength="800">INTERCOM™</text>
+</svg>
